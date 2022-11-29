@@ -1,3 +1,6 @@
+# Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos 
+# separados.
+
 #num = str(input('Digite um numero de 0 a 9999:')).strip()
 #print('unidade:{}'.format(num[3]))
 #print('dezena:{}'.format(num[2]))
