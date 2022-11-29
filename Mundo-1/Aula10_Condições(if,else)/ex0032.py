@@ -1,3 +1,5 @@
+#Faça um programa que leia um ano qualquer e mostre se ele é BISSEXTO
+
 from datetime import date #modulo para saber saber a data
 print('=' * 10, 'Ano Bissexto', '=' * 10)
 ano = int(input('Em que ano estamos? Coloque 0 para analisar o ano atual: '))
