@@ -1,3 +1,7 @@
+# Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar
+
+# Considere R$ 3.27 = US$ 1
+
 din = float(input('Quanto dinheiro voce tem? R$'))
 dol = din / 4.28
 eu = din / 5.12
