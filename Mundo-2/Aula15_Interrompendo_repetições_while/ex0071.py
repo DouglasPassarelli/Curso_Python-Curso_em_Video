@@ -1,3 +1,11 @@
+'''
+Crie um programa que simule o funcionamento de um caixa eletrônico.
+No início, pergunte ao usuário qual será o valor a ser sacado(inteiro)
+e o programa vai informar quantas cédulas de cada valor serão entregues.
+Obs.: Considere que o caixa possui cédulas de R$50, R$20, R$10 e R$1.
+'''
+
+
 '''print('-=' * 15)
 print('{:^30}'.format('BANCO DO DOGAO'))
 print('-=' * 15)
@@ -9,7 +17,11 @@ for cedula in cedulas:
     print(f'Total de {quantcedula} de cédulas de R${cedula:.2f}')
 print('-=' * 15)
 print('VOLTE SEMPRE BANCO DO DOGAO AGRADEÇE SUA PRESENÇA!!')'''
-#cedulas de 50, 20, 10, 1
+
+
+#Segundo Metodo
+
+
 print('-=' * 15)
 print('{:^30}'.format('BANCO DO DOGAO'))
 print('-=' * 15)

@@ -1,5 +1,10 @@
+#Faça um programa que leia um número qualquer e mostre
+#o seu fatorial 
+
 # A fatorial do ultimo numero * o numero seguinte corresponde a o fatorial daquele numero
 # EX: fatorial de 4*3*2*1 = 24, 24 * 5 = 120 que e o fatorial do numero 5, fatorial de 5! = 120
+
+
 '''print('-=' * 10, 'Fatorial', '-=' * 10)
 n = int(input('Digite um numero na qual queira ver seu fatorial: '))
 f = 1
@@ -9,6 +14,7 @@ for c in range(n, 0, -1):
     print(' X ' if c > 1 else ' = ', end='')
     f = f * c
 print('{}'.format(f))'''
+
 
 #condição while
 '''print('-=' * 10, 'Fatorial', '-=' * 10)
