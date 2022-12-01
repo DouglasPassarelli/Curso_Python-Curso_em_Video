@@ -1,3 +1,8 @@
+'''
+Desenvolva um programa que leia seis números inteiros
+e mostre a soma apenas daqueles que forem pares
+Se o valor digitado for ímpar, desconsidere-o.'''
+
 print('-=' * 10, 'Soma dos Pares', '-=' * 10)
 soma = 0
 cont = 0

@@ -1,12 +1,11 @@
-'''print('-=' * 10, 'Analisando Frases', '-=' * 10)
-frase = str(input('Digite uma frase: ')).strip().upper()
-frase = frase.replace(' ', '')
-frase2 = str(frase[::-1])
-frase2 = frase2.replace(' ', '')
-if frase == frase2:
-    print('A frase {} ao inverso fica {} e é um PALINDROMO!!'.format(frase, frase2))
-else:
-    print('A frase {} ao inverso fica {} e nao é um PALINDROMO!!'.format(frase, frase2))'''
+''' Crie um programa que leia uma frase qualquer
+E diga se ela é um palíndromo, desconsiderando os espaços'''
+# Após a sopa
+# A sacada da casa
+# A torre da derrota
+# o lobo ama o bolo
+# Anotaram a data da maratona
+
 
 frase = str(input('Digite um frase: ')).strip().upper()
 palavras = frase.split()
