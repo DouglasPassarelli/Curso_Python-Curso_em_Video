@@ -1,4 +1,15 @@
+'''
+Faça um programa que leia o ano de nascimento de um jovem e informe
+de acordo com sua idade:
+- Se ele ainda vai se alistar ao serviço militar
+- Se é a hora de se alistar
+- Se já passou do tempo do alistamento
+Seu programa também deverá mostrar o tempo que faltou ou que passou do prazo
+'''
+
 from datetime import date
+
+
 print('\033[4;36m-=' * 15, 'ALISTAMENTO MILITAR', '-=' * 15)
 nasc = int(input('\033[31mEm que ano voce nasceu: '))
 sexo = str(input(' Qual o seu sexo ? (masculino) ou (feminino) '))

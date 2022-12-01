@@ -1,3 +1,14 @@
+'''
+Escreva um programa para aprovar o empréstimo bancário
+para a compra de uma casa
+O programa vai perguntar o valor da casa, o salário do comprador e em quantos
+anos ele vai pagar
+Calcule o valor da prestação mensal,
+sabendo que ela não pode exceder 30% do salário
+ou então o empréstimo será negado
+'''
+
+
 print('\033[31m=' * 61)
 print('\033[36m=' * 20, '\033[36mEmprestimo Báncario', '\033[36m=' * 20)
 print('\033[31m=' * 61)

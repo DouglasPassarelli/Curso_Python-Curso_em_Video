@@ -1,5 +1,15 @@
+'''
+Crie um programa que faça o computador jogar Jokenpô com você.
+As regras são as seguintes:
+- Papel vence Pedra e perde para Tesoura
+- Pedra vence Tesoura e perde para Papel
+- Tesoura vence Papel e perde para Pedra
+'''
+
 from time import sleep
 from random import randint #Fazer um randonização de um numero
+
+
 print('\033[1;31m{:=^55}' .format(' Jogo Pedra, Papel, Tesoura '))
 lista = ('pedra', 'papel', 'tesoura') #Colocar as strings em uma lista
 computador = randint(0, 2) #Fazer o computador sortear um numero de 0 a 2
@@ -15,7 +25,7 @@ print('KEN')
 sleep(0.5)
 print('PO!!!')
 print('-=' * 15)
-print('\033[32mO computador jogou {}'.format(lista[computador]))#Fazer o sortei dos elementos da lista
+print('\033[32mO computador jogou {}'.format(lista[computador]))#Fazer o sorteio dos elementos da lista
 print('O jogador jogou {}\033[m'.format(lista[escolha]))#Fazer com que a opção selecionada seja o mesmo numero referente ao da lista
 print('\033[34m-=\033[m' * 15)
 if computador == 0: #jogada do computador
@@ -27,6 +37,8 @@ if computador == 0: #jogada do computador
         print('\033[32mO Computador venceu!')
     else:
         print('\033[31mJogada Invalida!')
+
+
 elif computador == 1:
     if escolha == 0:
         print('\033[32mO Computador venceu!')
@@ -36,6 +48,8 @@ elif computador == 1:
         print('\033[32mO Jogador venceu!')
     else:
         print('\033[31mJogada Invalida')
+
+
 elif computador == 2:
     if escolha == 0:
         print('\033[32mO Jogador Venceu!')
