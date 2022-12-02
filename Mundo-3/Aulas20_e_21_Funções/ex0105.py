@@ -1,3 +1,13 @@
+''' 
+Faça um programa que tenha uma função notas() que pode receber várias notas de alunos e vai retornar um dicionário com as seguintes informações:
+
+– Quantidade de notas
+– A maior nota      
+– A menor nota
+– A média da turma
+– A situação (opcional)
+'''
+
 def notas(*num, sit=False):
     """
     -> Função para analisar varias notas e situação de varios alunos.
@@ -5,7 +15,6 @@ def notas(*num, sit=False):
     :param sit: (opcional) sever para mostrar ou nao a situação do aluno
     :return: dicionario com varias informaçoes sobre a situação da turma
     """
-
     ava = {}
     ava['total'] = len(num)
     cont = maior = menor = media = 0

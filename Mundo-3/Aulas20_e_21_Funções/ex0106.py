@@ -1,3 +1,7 @@
+'''
+Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer. Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.
+'''
+
 from time import sleep
 c = ('\033[m',   # 0 sem cor
        '\033[4;30;44m',   # 1 branco e azul
@@ -13,7 +17,6 @@ def titulo(msg, cor=0):
     print(f'  {msg}')
     print('~' * tam)
     print(c[0], end='')
-
 
 
 def ajuda(resp):
